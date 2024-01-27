@@ -1,0 +1,46 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem; /* Increase the padding for more height */
+    background-color: Black; /* Change this to your preferred background color */
+    color: white; /* Text color */
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.left-section h3 {
+    font-size: 30px; /* Adjust the font size as needed */
+    margin-right: 80px; /* Add margin for separation */
+    margin-left: 30px;
+}
+
+.nav-links {
+    font-size: 20px; /* Adjust the font size as needed */
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Set link color */
+    padding: 8px 12px; /* Adjust padding for a little more separation */
+}
+
+.right-section {
+    display: flex;
+    gap: 30px;
+    margin-right: 40px;
+}
+
+.logo {
+    width: 45px; /* Adjust the size as needed */
+    height: 45px;
+    border-radius: 50%; /* Optional: make the logos circular */
+    filter: brightness(0) invert(1); /* Make the logos white while preserving transparency */
+}
