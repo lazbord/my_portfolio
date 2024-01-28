@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <header className="navbar">
             <div className="left-section">
-                <h3>My portfolio</h3>
+                <h3>Lazare Bordereaux</h3>
                 <nav className="nav-links">
                     <a href="#about">About me</a>
                     <a href="#skills">Skills</a>

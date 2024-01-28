@@ -1,0 +1,30 @@
+/* Skills.css */
+
+.skills-container {
+    text-align: center;
+    padding: 200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: start; /* Align items to the start (top) of the grid */
+}
+
+.skill {
+    text-align: center;
+}
+
+.skill img {
+    width: 100px;
+}
+
+.skill p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+}

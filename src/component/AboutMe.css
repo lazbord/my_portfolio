@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    padding: 185px;
     background-color: #f2f2f2;
 }
 
@@ -12,14 +12,14 @@
 }
 
 .profile-photo img {
-    width: 100%;
+    width: 150%;
     height: auto;
     border-radius: 50%;
 }
 
 .profile-description {
-    max-width: 600px;
-    margin-left: 30px;
+    max-width: 700px;
+    margin-left: 300px;
     margin-bottom: 30px;
 }
 
@@ -29,5 +29,16 @@
 
 .profile-description p {
     font-size: 25px;
+}
+
+.profile-description button {
+    margin-top: 30px;
+    padding: 15px 22px;
+    font-size: 20px;
+    background-color: black ; /* Blue color, you can change it */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
 

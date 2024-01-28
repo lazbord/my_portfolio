@@ -1,21 +1,23 @@
-import './AboutMe.css'; // Import your CSS file
-
 import React from 'react';
+import './AboutMe.css';
 
-const AboutMe = () => {
+function AboutMe() {
     return (
         <div className="main-content">
             <div className="profile-photo">
-                <img src={require('../images/lazare.png')} alt="Your Photo" />
+                <img src={require('../images/lazare.png')} alt="Your Photo"/>
             </div>
             <div className="profile-description">
-                <h2>Lazare Bordereaux</h2>
+                <p>Welcome to my portfolio</p>
+                <h2>Hi ! I'm Lazare Bordereaux</h2>
                 <p>
-                    Cybersecurity student at ESILV Paris la Défense.
+                    Student at ESILV since 2020, I have recently specialized in cybersecurity.
+                    Simultaneously, I am self-learning programmer, constantly seeking to enhance my skills and knowledge.
                 </p>
+                <button>Contact Me</button>
             </div>
         </div>
     );
-};
+}
 
 export default AboutMe;
