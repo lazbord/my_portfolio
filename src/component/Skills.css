@@ -1,21 +1,24 @@
-/* Skills.css */
-
 .skills-container {
     text-align: center;
-    padding: 200px;
+    padding: 40px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-    justify-content: center;
-    align-items: start; /* Align items to the start (top) of the grid */
+    grid-gap: 40px;
+    max-width: 800px;
+    margin: auto;
 }
 
 .skill {
-    text-align: center;
+    transition: transform 0.3s ease; /* Add transition for smooth scaling effect */
+}
+
+.skill:hover {
+    transform: scale(1.1); /* Adjust the scale factor as needed */
 }
 
 .skill img {
     width: 100px;
+    height: auto;
 }
 
 .skill p {
@@ -23,8 +26,7 @@
     font-weight: bold;
 }
 
-h2 {
+h2.skills-heading {
     text-align: center;
-    margin-bottom: 20px;
     font-size: 36px;
 }

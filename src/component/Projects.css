@@ -1,0 +1,65 @@
+/* Projects.css */
+
+.color-container {
+    background-color: #f2f2f2;
+}
+
+.projects-container {
+    text-align: center;
+    padding: 10px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.projects-container h2 {
+    font-size: 36px;
+}
+.project {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0; /* Adjust the padding as needed */
+    border-bottom: 1px solid #ccc; /* Add a 1px solid line as a separator */
+}
+
+.project img {
+    width: 100%;
+    max-width: 300px; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px; /* Adjust the margin as needed */
+    background-color: white; /* Add a white background */
+    padding: 10px; /* Optional: Add padding for better visual */
+    filter: grayscale(100%); /* Apply grayscale effect */
+}
+
+.project-info {
+    text-align: left;
+    max-width: 650px; /* Adjust the width as needed */
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.project h3 {
+    font-size: 25px;
+}
+
+.project p {
+    font-size: 22px;
+}
+
+.project button {
+    margin-top: 30px;
+    padding: 15px 22px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.project button:hover {
+    transform: scale(1.1);
+}

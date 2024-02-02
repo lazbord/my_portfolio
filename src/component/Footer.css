@@ -1,0 +1,32 @@
+.footer {
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+.top-section {
+    margin-bottom: 20px;
+}
+
+.top-section p {
+    max-width: 550px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.top-section h2 {
+    font-size: 36px;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.bottom-section {
+    border-top: 1px solid #555;
+    padding-top: 10px;
+    font-size: 13px;
+}

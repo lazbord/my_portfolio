@@ -1,5 +1,6 @@
 import React from 'react';
-import './Navbar.css'; // Import your CSS file
+import { Link } from 'react-scroll'; // Import Link from react-scroll
+import './Navbar.css';
 
 function Navbar() {
     return (
@@ -7,9 +8,9 @@ function Navbar() {
             <div className="left-section">
                 <h3>Lazare Bordereaux</h3>
                 <nav className="nav-links">
-                    <a href="#about">About me</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#projects">Projects</a>
+                    <Link to="about" smooth={true} duration={500}>About me</Link>
+                    <Link to="skills" smooth={true} duration={500}>Skills</Link>
+                    <Link to="projects" smooth={true} duration={500}>Projects</Link>
                 </nav>
             </div>
             <div className="right-section">
