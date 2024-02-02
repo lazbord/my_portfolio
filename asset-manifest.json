@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/lazbord/lazbord.github.io/static/css/main.13ab3590.css",
-    "main.js": "/lazbord/lazbord.github.io/static/js/main.7e805a9b.js",
-    "static/js/787.2dcca737.chunk.js": "/lazbord/lazbord.github.io/static/js/787.2dcca737.chunk.js",
-    "static/media/lazare.png": "/lazbord/lazbord.github.io/static/media/lazare.8dd08fcbb6a4a4c3bae4.png",
-    "static/media/academease.png": "/lazbord/lazbord.github.io/static/media/academease.5fb34f40fc2babd9fc1b.png",
-    "static/media/cybershen.jpg": "/lazbord/lazbord.github.io/static/media/cybershen.6e57ee891e7d91d062af.jpg",
-    "static/media/html.png": "/lazbord/lazbord.github.io/static/media/html.8ba92e1c4464504736b9.png",
-    "static/media/react.png": "/lazbord/lazbord.github.io/static/media/react.028a987ceb2fe1987129.png",
-    "static/media/python.png": "/lazbord/lazbord.github.io/static/media/python.81a6ebd80080a3253ede.png",
-    "index.html": "/lazbord/lazbord.github.io/index.html",
-    "main.13ab3590.css.map": "/lazbord/lazbord.github.io/static/css/main.13ab3590.css.map",
-    "main.7e805a9b.js.map": "/lazbord/lazbord.github.io/static/js/main.7e805a9b.js.map",
-    "787.2dcca737.chunk.js.map": "/lazbord/lazbord.github.io/static/js/787.2dcca737.chunk.js.map"
+    "main.css": "/lazbord.github.io/my_portfolio/static/css/main.13ab3590.css",
+    "main.js": "/lazbord.github.io/my_portfolio/static/js/main.9103df11.js",
+    "static/js/787.2dcca737.chunk.js": "/lazbord.github.io/my_portfolio/static/js/787.2dcca737.chunk.js",
+    "static/media/lazare.png": "/lazbord.github.io/my_portfolio/static/media/lazare.8dd08fcbb6a4a4c3bae4.png",
+    "static/media/academease.png": "/lazbord.github.io/my_portfolio/static/media/academease.5fb34f40fc2babd9fc1b.png",
+    "static/media/cybershen.jpg": "/lazbord.github.io/my_portfolio/static/media/cybershen.6e57ee891e7d91d062af.jpg",
+    "static/media/html.png": "/lazbord.github.io/my_portfolio/static/media/html.8ba92e1c4464504736b9.png",
+    "static/media/react.png": "/lazbord.github.io/my_portfolio/static/media/react.028a987ceb2fe1987129.png",
+    "static/media/python.png": "/lazbord.github.io/my_portfolio/static/media/python.81a6ebd80080a3253ede.png",
+    "index.html": "/lazbord.github.io/my_portfolio/index.html",
+    "main.13ab3590.css.map": "/lazbord.github.io/my_portfolio/static/css/main.13ab3590.css.map",
+    "main.9103df11.js.map": "/lazbord.github.io/my_portfolio/static/js/main.9103df11.js.map",
+    "787.2dcca737.chunk.js.map": "/lazbord.github.io/my_portfolio/static/js/787.2dcca737.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.13ab3590.css",
-    "static/js/main.7e805a9b.js"
+    "static/js/main.9103df11.js"
   ]
 }
