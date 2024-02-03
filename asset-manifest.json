@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.13ab3590.css",
+    "main.css": "/static/css/main.691925da.css",
     "main.js": "/static/js/main.93c2e742.js",
     "static/js/787.2dcca737.chunk.js": "/static/js/787.2dcca737.chunk.js",
     "static/media/lazare.png": "/static/media/lazare.8dd08fcbb6a4a4c3bae4.png",
@@ -10,12 +10,12 @@
     "static/media/react.png": "/static/media/react.028a987ceb2fe1987129.png",
     "static/media/python.png": "/static/media/python.81a6ebd80080a3253ede.png",
     "index.html": "/index.html",
-    "main.13ab3590.css.map": "/static/css/main.13ab3590.css.map",
+    "main.691925da.css.map": "/static/css/main.691925da.css.map",
     "main.93c2e742.js.map": "/static/js/main.93c2e742.js.map",
     "787.2dcca737.chunk.js.map": "/static/js/787.2dcca737.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13ab3590.css",
+    "static/css/main.691925da.css",
     "static/js/main.93c2e742.js"
   ]
 }
