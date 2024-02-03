@@ -52,7 +52,7 @@ function Projects() {
                             Beyond coding, the project immersed us in real-world development using agile methodology and Jira.
                             Focused on reports, teamwork, and incremental innovation, it fueled my passion for development.
                         </p>
-                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/lazbord/AcademEase" target="_blank" rel="noopener noreferrer">
                             <button>Github repository</button>
                         </a>
                     </div>
