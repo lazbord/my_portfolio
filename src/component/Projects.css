@@ -24,7 +24,6 @@
 }
 
 .project img {
-    width: 100%;
     max-width: 300px; /* Adjust the width as needed */
     height: auto;
     border-radius: 8px;
@@ -62,4 +61,11 @@
 
 .project button:hover {
     transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 768px) {
+    .project img {
+        display: none; /* Hide the scroll button on smaller screens */
+    }
 }

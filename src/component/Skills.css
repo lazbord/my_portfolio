@@ -30,3 +30,18 @@ h2.skills-heading {
     text-align: center;
     font-size: 36px;
 }
+
+@media screen and (max-width: 768px) {
+    .skills-container {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Adjust the minmax values for smaller screens */
+        grid-gap: 10px;
+    }
+
+    .skill {
+        transform: none; /* Remove scaling effect on smaller screens */
+    }
+
+    h2.skills-heading {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+}

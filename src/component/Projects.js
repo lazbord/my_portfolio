@@ -28,16 +28,11 @@ function Projects() {
                 <div className="project">
                     <div className="project-info">
                         <h3>Discord Bot</h3>
-                        <p>This bot has been entirely designed by me with the goal of simplifying various tasks in my
-                            daily life.
-                            Whether it's accessing my school portal, retrieving assignments, receiving important emails,
-                            and more, this bot serves as a versatile assistant.
-                            In a more relaxed context, it also allows me to gather real-time information on my hobbies,
-                            such as League of Legends API, Formula 1, or even Twitter.
-                            The bot is hosted on my Raspberry Pi 3 and is accessible 24/7, ensuring continuous support
-                            and functionality.
-                            This project is currently under construction and is not available to the public due to
-                            confidentiality/privacy reasons.
+                        <p>I've personally developed this bot to streamline tasks in my daily routine.
+                            From accessing my school portal and fetching assignments to receiving important emails, this bot serves as a versatile assistant.
+                            Itt also provides real-time updates on my hobbies, like League of Legends API, Formula 1, or Twitter.
+                            Hosted on my Raspberry Pi 3, it's available 24/7 for continuous support and functionality.
+                            This project is currently in progress and isn't accessible to the public due to privacy reasons.
                         </p>
                         <a href="https://github.com/lazbord/Discord_Bot" target="_blank" rel="noopener noreferrer">
                             <button>Github repository (private)</button>

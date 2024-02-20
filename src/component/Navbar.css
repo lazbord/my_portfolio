@@ -12,7 +12,7 @@
     align-items: center;
 }
 
-.left-section h3 {
+h3 {
     font-size: 30px; /* Adjust the font size as needed */
     margin-right: 80px; /* Add margin for separation */
     margin-left: 30px;
@@ -61,4 +61,28 @@
 
 .logo:hover {
     filter: brightness(0) invert(0.5); /* Invert colors on hover */
+}
+
+@media screen and (max-width: 767px) {
+    .navbar {
+        align-items: flex-start; /* Align items to the start on smaller screens */
+    }
+
+    .left-section {
+        margin-bottom: 10px; /* Add margin between sections for smaller screens */
+    }
+
+    h3 {
+        margin-right: 0; /* Remove margin on smaller screens */
+    }
+
+    .right-section {
+        margin-top: 10px; /* Add margin between sections for smaller screens */
+    }
+
+    .nav-links {
+        flex-direction: column; /* Stack links vertically on smaller screens */
+        align-items: flex-start; /* Align links to the start on smaller screens */
+        gap: 10px; /* Reduce gap for smaller screens */
+    }
 }

@@ -1,9 +1,13 @@
-// AboutMe.js
 import React from 'react';
 import { Link } from 'react-scroll';
 import './AboutMe.css';
+import CV from '../images//CV.pdf'; // Import your CV file
 
 function AboutMe() {
+    const downloadCV = () => {
+        window.open(CV, '_blank'); // Open the CV in a new tab for download
+    };
+
     return (
         <div className="main-content">
             <div className="profile-photo">
@@ -26,6 +30,7 @@ function AboutMe() {
                 >
                     <button>Contact Me</button>
                 </Link>
+                <button onClick={downloadCV}>Get my CV</button>
             </div>
         </div>
     );

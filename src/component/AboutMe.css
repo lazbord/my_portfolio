@@ -7,22 +7,21 @@
 }
 
 .profile-photo {
-    width: 300px;
-    min-width: 300px;
+    max-width: 450px;
+    min-width: 450px;
     margin-right: 20px;
 }
 
 .profile-photo img {
-    width: 150%;
+    width: 100%;
     height: auto;
     border-radius: 50%;
     filter: grayscale(100%);
 }
 
-
 .profile-description {
     max-width: 700px;
-    margin-left: 300px;
+    margin-left: 150px; /* Adjusted margin for smaller screens */
     margin-bottom: 30px;
 }
 
@@ -35,6 +34,7 @@
 }
 
 .profile-description button {
+    margin-right: 20px;
     margin-top: 30px;
     padding: 15px 22px;
     font-size: 20px;
@@ -48,4 +48,35 @@
 
 .profile-description button:hover {
     transform: scale(1.1);
+}
+
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 50px;
+    }
+
+    .profile-description {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .profile-photo {
+        min-width: 100px;
+        max-width: 350px;
+    }
+    .profile-description h2 {
+        font-size: 40px;
+    }
+
+    .profile-description p {
+        font-size: 20px;
+    }
+
+    .profile-description button {
+        font-size: 16px;
+    }
 }
